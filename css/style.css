@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    /* Ajustado para o novo nome e extensão */
+    background-image: url('../fundo_jardim.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+canvas {
+    display: block;
+    background-color: transparent !important;
+    /* Mantendo a bola como cursor */
+    cursor: none; 
+}
